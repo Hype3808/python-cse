@@ -1,11 +1,7 @@
-codecov:
-  bot: "codecov-io"
-  ci:
-    - "travis.org"
-  strict_yaml_branch: "yaml-config"
-  max_report_age: 24
-  disable_default_path_fixes: no
-  require_ci_to_pass: yes
-  notify:
-    after_n_builds: 2
-    wait_for_ci: yes
+steps:
+  # (Other steps go here)
+  - name: "Upload coverage to Codecov"
+    uses: codecov/codecov-action@v2
+    with:
+      fail_ci_if_error: true
+      token: ${{ secrets.CODECOV_TOKEN }}
