@@ -10,10 +10,10 @@ with open("README.md") as f:
 
 setuptools.setup(
 	name='python-cse',
-	author='XuaTheGrate',
-	url='https://github.com/XuaTheGrate/python-cse',
+	author='Hype3808',
+	url='https://github.com/Hype3808/python-cse',
 	project_urls={
-		'Issue Tracker': 'https://github.com/XuaTheGrate/python-cse/issues'
+		'Issue Tracker': 'https://github.com/Hype3808/python-cse/issues'
 	},
 	version=version,
 	packages=['cse'],
