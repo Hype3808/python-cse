@@ -1,11 +1,11 @@
 import unittest
 
-import awesome
+import cse
 
 
 class TestMethods(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(awesome.smile(), ":)")
+        self.assertEqual(cse.smile(), ":)")
 
 
 if __name__ == '__main__':
