@@ -9,7 +9,7 @@ jobs:
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9
+          python-version: 3.8.0
       - name: Install dependencies
         run: |
           pip install -U coverage
@@ -17,7 +17,7 @@ jobs:
           pip install -U pylint
       - name: Run tests and collect coverage
         run: |
-          coverage run test.py
+          python test.py
           coverage xml
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
