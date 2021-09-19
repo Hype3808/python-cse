@@ -1,5 +1,5 @@
 """
-Copyright 2020 XuaTheGrate
+Copyright 2020 Hype3808
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@ limitations under the License.
 from __future__ import annotations
 
 import inspect
-from enum import Enum
-from functools import wraps
 from typing import (
 	Any,
 	Callable,
