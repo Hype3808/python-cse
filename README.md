@@ -25,5 +25,5 @@ python -m pip install python-cse
 ```
 Or alternatively from GitHub (unstable)
 ```
-python -m pip install git+https://github.com/XuaTheGrate/python-cse
+python -m pip install git+https://github.com/Hype3808/python-cse
 ```
