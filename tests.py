@@ -24,7 +24,7 @@ def test_pylint():
                                                    'old-style-class,import-error,invalid-name,no-init,'
                                                    'too-many-instance-attributes,protected-access,too-many-arguments,'
                                                    'too-many-public-methods,logging-format-interpolation,'
-                                                   'too-many-branches', 'lavalink']
+                                                   'too-many-branches', 'cse']
     pylint.Run(opts, reporter=reporter, do_exit=False)
     out = reporter.out.getvalue()
 
