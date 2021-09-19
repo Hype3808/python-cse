@@ -1,4 +1,4 @@
-[![Documentation Status](https://readthedocs.org/projects/python-cse/badge/?version=latest)](https://python-cse.readthedocs.io/en/latest/?badge=latest) [![codecov](https://codecov.io/gh/Hype3808/python-cse/branch/master/graph/badge.svg?token=VTJ0RXIG1Z)](https://codecov.io/gh/Hype3808/python-cse)
+[![Documentation Status](https://readthedocs.org/projects/python-cse/badge/?version=latest)](https://python-cse.readthedocs.io/en/latest/?badge=latest)
 
 
 # Python-CSE
