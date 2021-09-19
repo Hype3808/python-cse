@@ -17,6 +17,7 @@ jobs:
           pip install -U aiohttp
       - name: Run tests and collect coverage
         run: |
+          cd cse
           pytest engine.py flags.py errors.py result.py
           coverage xml
       - name: Upload coverage to Codecov
